@@ -1,4 +1,5 @@
 import CopyChallenge from "./CopyChallenge"
+import Image from 'next/image'
 import React from "react"
 
 export const NFTCard = ({ nft }) => {
@@ -6,7 +7,7 @@ export const NFTCard = ({ nft }) => {
     return (
         <div className="w-1/4 flex flex-col ">
             <div className="rounded-md">
-                <img className="object-cover h-128 w-full rounded-t-md" src={nft.media[0].gateway} ></img>
+                <img className="object-cover h-128 w-full rounded-t-md" src={nft.media[0].gateway} />
             </div>
             <div className="flex flex-col y-gap-2 px-2 py-3 bg-slate-100 rounded-b-md h-110 ">
                 <div className="">
