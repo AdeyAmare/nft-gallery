@@ -1,5 +1,5 @@
-import CopyChallenge from "./CopyChallenge"
 import React from "react"
+import CopyChallenge from "./CopyChallenge"
 
 const NFTCard = ({ nft }) => {
 
